@@ -1,0 +1,1121 @@
+经典的100个c算法
+
+C语言的学习要从基础，100个经典的算法
+真不知道关于语言的应该发在那里，所以就在这里发了，发贴的原因有２个，第一个，这东西非常值得学习，第二个，想..........嘿嘿，大家应该能猜到吧
+语言的学习基础,100个经典的算法
+C语言的学习要从基础开始，这里是100个经典的算法－１C语言的学习要从基础开始，这里是100个经典的
+
+算法 
+题目：古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔
+子长到第三个月后每个月又生一对兔子，假如兔子都不死，问每个月的兔子总数
+为多少？
+
+__________________________________________________________________
+
+程序分析：兔子的规律为数列1,1,2,3,5,8,13,21....
+
+___________________________________________________________________
+程序源代码：
+main()
+{
+long f1,f2;
+int i;
+f1=f2=1;
+for(i=1;i<=20;i++)
+{ printf("%12ld %12ld",f1,f2);
+if(i%2==0) printf("\n");/*控制输出，每行四个*/
+f1=f1+f2;/*前两个月加起来赋值给第三个月*/
+f2=f1+f2;/*前两个月加起来赋值给第三个月*/
+}
+} 
+上题还可用一维数组处理，you try!
+
+题目：判断101-200之间有多少个素数，并输出所有素数。
+
+__________________________________________________________________
+
+程序分析：判断素数的方法：用一个数分别去除2到sqrt(这个数)，如果能被整
+除，则表明此数不是素数，反之是素数。
+
+___________________________________________________________________
+
+程序源代码：
+#include "math.h"
+main()
+{
+int m,i,k,h=0,leap=1;
+printf("\n");
+for(m=101;m<=200;m++)
+{ k=sqrt(m+1);
+for(i=2;i<=k;i++)
+if(m%i==0)
+{leap=0;break;}
+if(leap) {printf("%-4d",m);h++;
+if(h%10==0)
+printf("\n");
+}
+leap=1;
+}
+printf("\nThe total is %d",h);
+} 
+
+题目：打印出所有的“水仙花数”，所谓“水仙花数”是指一个三位数，其各位
+数字立方和等于该数本身。例如：153是一个“水仙花数”，因为153=1的三次方
+＋5的三次方＋3的三次方。
+
+__________________________________________________________________
+
+程序分析：利用for循环控制100-999个数，每个数分解出个位，十位，百位。
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int i,j,k,n;
+printf("'water flower'number is:");
+for(n=100;n<1000;n++)
+{
+i=n/100;/*分解出百位*/
+j=n/10%10;/*分解出十位*/
+k=n%10;/*分解出个位*/
+if(i*100+j*10+k==i*i*i+j*j*j+k*k*k)
+{
+printf("%-5d",n);
+}
+}
+printf("\n");
+} 
+
+
+题目：将一个正整数分解质因数。例如：输入90,打印出90=2*3*3*5。
+
+__________________________________________________________________
+
+
+程序分析：对n进行分解质因数，应先找到一个最小的质数k，然后按下述步骤完
+成：
+(1)如果这个质数恰等于n，则说明分解质因数的过程已经结束，打印出即可。
+(2)如果n<>k，但n能被k整除，则应打印出k的值，并用n除以k的商,作为新的正
+整数你n,重复执行第一步。
+(3)如果n不能被k整除，则用k+1作为k的值,重复执行第一步。
+
+___________________________________________________________________
+
+
+程序源代码：
+/* zheng int is divided yinshu*/
+main()
+{
+int n,i;
+printf("\nplease input a number:\n");
+scanf("%d",&n);
+printf("%d=",n);
+for(i=2;i<=n;i++)
+{
+while(n!=i)
+{
+if(n%i==0)
+{ printf("%d*",i);
+n=n/i;
+}
+else
+break;
+}
+}
+printf("%d",n);
+} 
+
+题目：利用条件运算符的嵌套来完成此题：学习成绩>=90分的同学用A表示，60
+-89分之间的用B表示，60分以下的用C表示。
+
+__________________________________________________________________
+
+程序分析：(a>b)?a:b这是条件运算符的基本例子。
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int score;
+char grade;
+printf("please input a score\n");
+scanf("%d",&score);
+grade=score>=90?'A'score>=60?'B':'C');
+printf("%d belongs to %c",score,grade);
+} 
+
+
+题目：输入两个正整数m和n，求其最大公约数和最小公倍数。
+
+__________________________________________________________________
+
+程序分析：利用辗除法。
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int a,b,num1,num2,temp;
+printf("please input two numbers:\n");
+scanf("%d,%d",&num1,&num2);
+if(num1 　{ temp=num1;
+num1=num2;　
+num2=temp;
+}
+a=num1;b=num2;
+while(b!=0)/*利用辗除法，直到b为0为止*/
+{
+temp=a%b;
+a=b;
+b=temp;
+}
+printf("gongyueshu:%d\n",a);
+printf("gongbeishu:%d\n",num1*num2/a);
+} 
+
+题目：输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数
+。
+
+__________________________________________________________________
+
+程序分析：利用while语句,条件为输入的字符不为'\n'.
+
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{char c;
+int letters=0,space=0,digit=0,others=0;
+printf("please input some characters\n");
+while((c=getchar())!='\n')
+{
+if(c>='a'&&c<='z'||c>='A'&&c<='Z')
+letters++;
+else if(c==' ')
+space++;
+else if(c>='0'&&c<='9')
+digit++;
+else
+others++;
+}
+printf("all in all:char=%d space=%d digit=%d others=%
+d\n",letters,space,digit,others);
+} 
+
+题目：求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。例如
+2+22+222+2222+22222(此时共有5个数相加)，几个数相加有键盘控制。
+
+__________________________________________________________________
+
+程序分析：关键是计算出每一项的值。
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int a,n,count=1;
+long int sn=0,tn=0;
+printf("please input a and n\n");
+scanf("%d,%d",&a,&n);
+printf("a=%d,n=%d\n",a,n);
+while(count<=n)
+{
+tn=tn+a;
+sn=sn+tn;
+a=a*10;
+++count;
+}
+printf("a+aa+...=%ld\n",sn);
+} 
+
+题目：一个数如果恰好等于它的因子之和，这个数就称为“完数”。例如6=1＋2
+＋3.编程找出1000以内的所有完数。
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+static int k[10];
+int i,j,n,s;
+for(j=2;j<1000;j++)
+{
+n=-1;
+s=j;
+for(i=1;i 　　{
+if((j%i)==0)
+{　n++;
+s=s-i;
+k[n]=i;
+}
+}
+if(s==0)
+{
+printf("%d is a wanshu",j);
+for(i=0;i 　printf("%d,",k);
+printf("%d\n",k[n]);
+}
+}
+} 
+
+
+题目：一球从100米高度自由落下，每次落地后反跳回原高度的一半；再落下，
+求它在第10次落地时，共经过多少米？第10次反弹多高？
+
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+float sn=100.0,hn=sn/2;
+int n;
+for(n=2;n<=10;n++)
+{
+sn=sn+2*hn;/*第n次落地时共经过的米数*/
+hn=hn/2; /*第n次反跳高度*/
+}
+printf("the total of road is %f\n",sn);
+printf("the tenth is %f meter\n",hn);
+} 
+
+题目：一只猴子摘了N个桃子第一天吃了一半又多吃了一个,第二天又吃了余下的
+一半又多吃了一个,到第十天的时候发现还有一个.
+
+___________________________________________________________________
+
+程序源代码：
+/* 猴子吃桃问题 */
+main()
+{ 
+int i,s,n=1;
+for(i=1;i<10;i++)
+{
+s=(n+1)*2
+n=s;
+}
+printf("第一天共摘了%d个桃\n",s);
+} 
+
+
+迭代法求方程根
+___________________________________________________________________
+
+
+/* 迭代法求一个数的平方根 */
+#define Epsilon 1.0E-6 /*控制解的精度*/
+#include<math.h>
+main()
+{
+float a,x0,x1;
+printf("请输入要求的数:");
+scanf("%f",&a);
+x0=a/2;
+x1=(x0+a/x0)/2;
+while(fabs(x1-x0)>=Epsilon)
+{
+x0=x1;
+x1=(x0+a/x0)/2;
+}
+printf("%f的平方根：%f.5\n",x1);
+} 
+
+
+/* 上题的另一种算法 */
+#define Epsilon 1.0E-6 /*控制解的精度*/ 
+#include <stdio.h>
+#include <math.h> 
+main() 
+{
+float num,pre,this; 
+do 
+{ 
+scanf("%f",&num);/*输入要求平方根的数*/ 
+}while(num<0); 
+if (num==0) 
+printf("the root is 0"); 
+else 
+{
+this=1; 
+do
+{ 
+pre=this;
+this=(pre+num/pre)/2; 
+}while(fabs(pre-this)>Epsilon);/*用解的精度，控制循环次数*/ 
+} 
+printf("the root is %f",this); 
+} 
+
+用牛顿迭代法 求方程 2*x*x*x-4*x*x+3*x-6 的根
+/* 牛顿迭代法 */
+#define Epsilon 1.0E-6 /*控制解的精度*/
+#include<math.h>
+main()
+{ 
+float x1,x0=1.5;
+x1=x0-(2*x0*x0*x0-4*x0*x0+3*x0-6)/(6*x0*x0-8*x0+3);
+while(fabs(x1-x0>=Epsilon)
+{　　 
+x0=x1;
+x1=x0-(2*x0*x0*x0-4*x0*x0+3*x0-6)/(6*x0*x0-8*x0+3);
+}
+printf("方程的根为%f\n",x1);
+} 
+
+用二分法求上题
+/* 二分法 */
+#define Epsilon 1.0E-5 /*控制解的精度*/
+#include<math.h>
+main()
+{ 
+folat x1,x2,x0,f1,f2,f0;
+x0=(x1+x2)/2;
+f0=2*x0*x0*x0-4*x0*x0+3*x0-6;　　 /* 求中点的函数值 */
+while(fabs(f0)>=Epsilon)
+{ 
+if(f0*f1<0)
+{ x2=x0;
+f2=2*x2*x2*x2-4*x2*x2+3*x2-6;
+}
+if(f0*f2<0)
+{ x1=x0;
+f1=2*x1*x1*x1-4*x1*x1+3*x1-6;
+}
+x0=(x1+x2)/2;
+f0=2*x0*x0*x0-4*x0*x0+3*x0-6;
+}
+printf("用二分法求得方程的根：%f\n",x0); 
+} 
+
+题目：打印出如下图案（菱形）
+*
+***
+******
+********
+******
+***
+*
+___________________________________________________________________
+
+程序分析：先把图形分成两部分来看待，前四行一个规律，后三行一个规律，利
+用双重for循环，第一层控制行，第二层控制列。
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int i,j,k;
+for(i=0;i<=3;i++)
+{
+for(j=0;j<=2-i;j++)
+printf(" ");
+for(k=0;k<=2*i;k++)
+printf("*");
+printf("\n");
+}
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=i;j++)
+printf(" ");
+for(k=0;k<=4-2*i;k++)
+printf("*");
+printf("\n");
+}
+} 
+
+题目：一个5位数，判断它是不是回文数。即12321是回文数，个位与万位相同，
+十位与千位相同。
+___________________________________________________________________
+
+程序分析：同29例
+___________________________________________________________________
+
+程序源代码：
+main( )
+{
+long ge,shi,qian,wan,x;
+scanf("%ld",&x);
+wan=x/10000;
+qian=x%10000/1000;
+shi=x%100/10;
+ge=x%10;
+if (ge==wan&&shi==qian)/*个位等于万位并且十位等于千位*/
+printf("this number is a huiwen\n");
+else
+printf("this number is not a huiwen\n");
+} 
+
+
+题目：请输入星期几的第一个字母来判断一下是星期几，如果第一个字母一样，
+则继续判断第二个字母。
+___________________________________________________________________
+
+程序分析：用情况语句比较好，如果第一个字母一样，则判断用情况语句或if语
+句判断第二个字母。
+___________________________________________________________________
+
+程序源代码：
+#include <stdio.h>
+void main()
+{
+char letter;
+printf("please input the first letter of someday\n");
+while ((letter=getch())!='Y') /*当所按字母为Y时才结束*/
+{ switch (letter)
+{case 'S':printf("please input second letter\n");
+if((letter=getch())=='a')
+printf("saturday\n");
+else if ((letter=getch())=='u')
+printf("sunday\n");
+else printf("data error\n");
+break;
+case 'F':printf("friday\n");break;
+case 'M':printf("monday\n");break;
+case 'T':printf("please input second letter\n");
+if((letter=getch())=='u')
+printf("tuesday\n");
+else if ((letter=getch())=='h')
+printf("thursday\n");
+else printf("data error\n");
+break;
+case 'W':printf("wednesday\n");break;
+default: printf("data error\n");
+}
+}
+} 
+
+题目：Press any key to change color, do you want to try it. Please 
+hurry up!
+___________________________________________________________________
+
+程序源代码：
+#include <conio.h>
+void main(void)
+{
+int color;
+for (color = 0; color < 8; color++)
+{ 
+textbackground(color); /*设置文本的背景颜色*/
+cprintf("This is color %d\r\n", color);
+cprintf("ress any key to continue\r\n");
+getch(); /*输入字符看不见*/
+}
+} 
+
+题目：学习gotoxy()与clrscr()函数
+___________________________________________________________________
+
+程序源代码：
+#include <conio.h>
+void main(void)
+{
+clrscr(); /*清屏函数*/
+textbackground(2);
+gotoxy(1, 5); /*定位函数*/
+cprintf("Output at row 5 column 1\n");
+textbackground(3);
+gotoxy(20, 10);
+cprintf("Output at row 10 column 20\n");
+} 
+
+
+题目：练习函数调用
+___________________________________________________________________
+
+程序源代码：
+#include <stdio.h>
+void hello_world(void)
+{
+printf("Hello, world!\n");
+}
+void three_hellos(void)
+{
+int counter;
+for (counter = 1; counter <= 3; counter++)
+hello_world();/*调用此函数*/
+}
+void main(void)
+{
+three_hellos();/*调用此函数*/
+} 
+
+
+题目：文本颜色设置
+___________________________________________________________________
+
+程序源代码：
+#include <conio.h>
+void main(void)
+{
+int color;
+for (color = 1; color < 16; color++)
+{
+textcolor(color);/*设置文本颜色*/
+cprintf("This is color %d\r\n", color);
+}
+textcolor(128 + 15);
+cprintf("This is blinking\r\n");
+} 
+
+题目：求100之内的素数
+___________________________________________________________________
+
+程序源代码：
+#include <stdio.h>
+#include "math.h"
+#define N 101
+main()
+{
+int i,j,line,a[N];
+for(i=2;i<N;i++) a=i;
+for(i=2;i<sqrt(N);i++)
+for(j=i+1;j<N;j++)
+{
+if(a!=0&&a[j]!=0)
+if(a[j]%a==0)
+a[j]=0;}
+printf("\n");
+for(i=2,line=0;i<N;i++)
+{
+if(a!=0)
+{printf("%5d",a);
+line++;}
+if(line==10)
+{printf("\n");
+line=0;}
+}
+} 
+
+题目：对10个数进行排序
+___________________________________________________________________
+
+程序分析：可以利用选择法，即从后9个比较过程中，选择一个最小的与第一个
+元素交换，下次类推，即用第二个元素与后8个进行比较，并进行交换。 　　　
+　　　 
+程序源代码：
+#define N 10
+main()
+{int i,j,min,tem,a[N];
+/*input data*/
+printf("please input ten num:\n");
+for(i=0;i<N;i++)
+{
+printf("a[%d]=",i);
+scanf("%d",&a);}
+printf("\n");
+for(i=0;i<N;i++)
+printf("%5d",a);
+printf("\n");
+/*sort ten num*/
+for(i=0;i<N-1;i++)
+{min=i;
+for(j=i+1;j<N;j++)
+if(a[min]>a[j]) min=j;
+tem=a;
+a=a[min];
+a[min]=tem;
+}
+/*output data*/
+printf("After sorted \n");
+for(i=0;i<N;i++)
+printf("%5d",a);
+} 
+
+题目：求一个3*3矩阵对角线元素之和 
+___________________________________________________________________
+
+程序分析：利用双重for循环控制输入二维数组，再将a累加后输出。
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+float a[3][3],sum=0;
+int i,j;
+printf("please input rectangle element:\n");
+for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+scanf("%f",&a[j]);
+for(i=0;i<3;i++)
+sum=sum+a;
+printf("duijiaoxian he is %6.2f",sum);
+} 
+
+题目：有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数
+组中。
+___________________________________________________________________
+
+程序分析：首先判断此数是否大于最后一个数，然后再考虑插入中间的数的情况
+，插入后此元素之后的数，依次后移一个位置。
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+int a[11]={1,4,6,9,13,16,19,28,40,100};
+int temp1,temp2,number,end,i,j;
+printf("original array is:\n");
+for(i=0;i<10;i++)
+printf("%5d",a);
+printf("\n");
+printf("insert a new number:");
+scanf("%d",&number);
+end=a[9];
+if(number>end)
+a[10]=number;
+else
+{for(i=0;i<10;i++)
+{ if(a>number)
+{temp1=a;
+a=number;
+for(j=i+1;j<11;j++)
+{temp2=a[j];
+a[j]=temp1;
+temp1=temp2;
+}
+break;
+}
+}
+}
+for(i=0;i<11;i++)
+printf("%6d",a);
+} 
+
+题目：将一个数组逆序输出。
+___________________________________________________________________
+
+程序分析：用第一个与最后一个交换。
+___________________________________________________________________
+
+程序源代码：
+#define N 5
+main()
+{ int a[N]={9,6,5,4,1},i,temp;
+printf("\n original array:\n");
+for(i=0;i<N;i++)
+printf("%4d",a);
+for(i=0;i<N/2;i++)
+{temp=a;
+a=a[N-i-1];
+a[N-i-1]=temp;
+}
+printf("\n sorted array:\n");
+for(i=0;i<N;i++)
+printf("%4d",a);
+} 
+
+
+题目：学习static定义静态变量的用法
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+varfunc()
+{
+int var=0;
+static int static_var=0;
+printf("\40:var equal %d \n",var);
+printf("\40:static var equal %d \n",static_var);
+printf("\n");
+var++;
+static_var++;
+}
+void main()
+{int i;
+for(i=0;i<3;i++)
+varfunc();
+} 
+
+
+题目：学习使用auto定义变量的用法
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{int i,num;
+num=2;
+for (i=0;i<3;i++)
+{ printf("\40: The num equal %d \n",num);
+num++;
+{
+auto int num=1;
+printf("\40: The internal block num equal %d \n",num);
+num++;
+}
+}
+} 
+
+C语言的学基础，100个经典的算法－２
+程序源代码：
+#include "stdio.h"
+main()
+{
+int i,num;
+num=2;
+for(i=0;i<3;i++)
+{
+printf("\40: The num equal %d \n",num);
+num++;
+{
+static int num=1;
+printf("\40:The internal block num equal %d\n",num);
+num++;
+}
+}
+} 
+
+
+题目：学习使用external的用法。
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+int a,b,c;
+void add()
+{ int a;
+a=3;
+c=a+b;
+}
+void main()
+{ a=b=4;
+add();
+printf("The value of c is equal to %d\n",c);
+} 
+
+
+题目：学习使用register定义变量的方法。
+___________________________________________________________________
+
+程序源代码：
+void main()
+{
+register int i;
+int tmp=0;
+for(i=1;i<=100;i++)
+tmp+=i;
+printf("The sum is %d\n",tmp);
+} 
+
+
+题目：宏#define命令练习(1)
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+#define TRUE 1
+#define FALSE 0
+#define SQ(x) (x)*(x)
+void main()
+{
+int num;
+int again=1;
+printf("\40: Program will stop if input value less than 50.\n");
+while(again)
+{
+printf("\40lease input number==>");
+scanf("%d",&num);
+printf("\40:The square for this number is %d \n",SQ(num));
+if(num>=50)
+again=TRUE;
+else
+again=FALSE;
+}
+} 
+
+
+题目：宏#define命令练习(2)
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+#define exchange(a,b)
+{ \ /*宏定义中允许包含两道衣裳命令的情形，此时必须在最右边加上"\"*/
+int t;\
+t=a;\
+a=b;\
+b=t;\
+}
+void main(void)
+{
+int x=10;
+int y=20;
+printf("x=%d; y=%d\n",x,y);
+exchange(x,y);
+printf("x=%d; y=%d\n",x,y);
+} 
+
+
+题目：宏#define命令练习(3)
+___________________________________________________________________
+
+程序源代码：
+#define LAG >
+#define SMA <
+#define EQ ==
+#include "stdio.h"
+void main()
+{ int i=10;
+int j=20;
+if(i LAG j)
+printf("\40: %d larger than %d \n",i,j);
+else if(i EQ j)
+printf("\40: %d equal to %d \n",i,j);
+else if(i SMA j)
+printf("\40:%d smaller than %d \n",i,j);
+else
+printf("\40: No such value.\n");
+} 
+
+
+题目：#if #ifdef和#ifndef的综合应用。
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+#define MAX
+#define MAXIMUM(x,y) (x>y)?x:y
+#define MINIMUM(x,y) (x>y)?y:x
+void main()
+{ int a=10,b=20;
+#ifdef MAX
+printf("\40: The larger one is %d\n",MAXIMUM(a,b));
+#else
+printf("\40: The lower one is %d\n",MINIMUM(a,b));
+#endif
+#ifndef MIN
+printf("\40: The lower one is %d\n",MINIMUM(a,b));
+#else
+printf("\40: The larger one is %d\n",MAXIMUM(a,b));
+#endif
+#undef MAX
+#ifdef MAX
+printf("\40: The larger one is %d\n",MAXIMUM(a,b));
+#else
+printf("\40: The lower one is %d\n",MINIMUM(a,b));
+#endif
+#define MIN
+#ifndef MIN
+printf("\40: The lower one is %d\n",MINIMUM(a,b));
+#else
+printf("\40: The larger one is %d\n",MAXIMUM(a,b));
+#endif
+} 
+
+
+题目：#include 的应用练习
+___________________________________________________________________
+
+程序源代码：
+test.h 文件如下：
+#define LAG >
+#define SMA <
+#define EQ ==
+#include "test.h" /*一个新文件50.c，包含test.h*/
+#include "stdio.h"
+void main()
+{ int i=10;
+int j=20;
+if(i LAG j)
+printf("\40: %d larger than %d \n",i,j);
+else if(i EQ j)
+printf("\40: %d equal to %d \n",i,j);
+else if(i SMA j)
+printf("\40:%d smaller than %d \n",i,j);
+else
+printf("\40: No such value.\n");
+} 
+
+题目：学习使用按位与 & 。　　　
+___________________________________________________________________
+
+程序分析：0&0=0; 0&1=0; 1&0=0; 1&1=1
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{
+int a,b;
+a=077;
+b=a&3;
+printf("\40: The a & b(decimal) is %d \n",b);
+b&=7;
+printf("\40: The a & b(decimal) is %d \n",b);
+} 
+
+
+题目：学习使用按位或 | 。
+___________________________________________________________________
+
+程序分析：0|0=0; 0|1=1; 1|0=1; 1|1=1　　　　　　　　　　　　
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{
+int a,b;
+a=077;
+b=a|3;
+printf("\40: The a & b(decimal) is %d \n",b);
+b|=7;
+printf("\40: The a & b(decimal) is %d \n",b);
+}
+
+
+题目：学习使用按位异或 ^ 。　　　
+___________________________________________________________________
+
+程序分析：0^0=0; 0^1=1; 1^0=1; 1^1=0
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{
+int a,b;
+a=077;
+b=a^3;
+printf("\40: The a & b(decimal) is %d \n",b);
+b^=7;
+printf("\40: The a & b(decimal) is %d \n",b);
+} 
+
+
+题目：取一个整数a从右端开始的4～7位。
+___________________________________________________________________
+
+　　程序分析：可以这样考虑： 
+(1)先使a右移4位。
+(2)设置一个低4位全为1,其余全为0的数。可用~(~0<<4)
+(3)将上面二者进行&运算。
+___________________________________________________________________
+
+程序源代码：
+main()
+{
+unsigned a,b,c,d;
+scanf("%o",&a);
+b=a>>4; 
+c=~(~0<<4);
+d=b&c;
+printf("%o\n%o\n",a,d);
+} 
+
+
+题目：学习使用按位取反~。　　　
+___________________________________________________________________
+
+程序分析：~0=1; ~1=0;
+___________________________________________________________________
+
+程序源代码：
+#include "stdio.h"
+main()
+{
+int a,b;
+a=234;
+b=~a;
+printf("\40: The a's 1 complement(decimal) is %d \n",b);
+a=~a;
+printf("\40: The a's 1 complement(hexidecimal) is %x \n",a);
+} 
+
+
+题目：画图，学用circle画圆形。
+___________________________________________________________________
+
+程序源代码：
+/*circle*/
+#include "graphics.h"
+main()
+{
+int driver,mode,i;
+float j=1,k=1;
+driver=VGA;mode=VGAHI;
+initgraph(&driver,&mode,"");
+setbkcolor(YELLOW);
+for(i=0;i<=25;i++)
+{
+setcolor(8);
+circle(310,250,k);
+k=k+j;
+j=j+0.3;
+}
+} 
+
+
+题目：画图，学用line画直线。
+___________________________________________________________________
+　　　　　
+程序源代码：
+#include "graphics.h"
+main()
+{
+int driver,mode,i;
+float x0,y0,y1,x1;
+float j=12,k;
+driver=VGA;mode=VGAHI;
+initgraph(&driver,&mode,"");
+setbkcolor(GREEN);
+x0=263;y0=263;y1=275;x1=275;
+for(i=0;i<=18;i++)
+{
+setcolor(5);
+line(x0,y0,x0,y1);
+x0=x0-5;
+y0=y0-5;
+x1=x1+5;
+y1=y1+5;
+j=j+10;
+}
+x0=263;y1=275;y0=263;
+for(i=0;i<=20;i++)
+{
+setcolor(5);
+line(x0,y0,x0,y1);
+x0=x0+5;
+y0=y0+5;
+y1=y1-5;
+}
+} 
+
+
+题目：画图，学用rectangle画方形。　　　
+___________________________________________________________________
+　 
+程序分析：利用for循环控制100-999个数，每个数分解出个位，十位，百位。
+___________________________________________________________________
+　
+程序源代码：
+#include "graphics.h"
+main()
+{
+int x0,y0,y1,x1,driver,mode,i;
+driver=VGA;mode=VGAHI;
+initgraph(&driver,&mode,"");
+setbkcolor(YELLOW);
+x0=263;y0=263;y1=275;x1=275;
+for(i=0;i<=18;i++)
+{
+setcolor(1);
+rectangle(x0,y0,x1,y1);
+x0=x0-5;
+y0=y0-5;
+x1=x1+5;
+y1=y1+5;
+}
+settextstyle(DEFAULT_FONT,HORIZ_DIR,2);
+outtextxy(150,40,"How beautiful it is!");
+line(130,60,480,60);
+setcolor(2);
+circle(269,269,137);
+} 
+	
+
+ 
