@@ -50,3 +50,50 @@
 [经典的100个C算法](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E7%BB%8F%E5%85%B8%E7%9A%84100%E4%B8%AAc%E7%AE%97%E6%B3%95.txt "经典的100个C算法")
 
 [谭浩强经典C教程](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E8%B0%AD%E6%B5%A9%E5%BC%BA%E7%BB%8F%E5%85%B8C%252B%252B%E6%95%99%E7%A8%8B.ppt "谭浩强经典C教程")
+
+## Go
+
+[Go并发编程实战](https://github.com/TIM168/technical_books/blob/master/Go/Go%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98.pdf "Go并发编程实战")
+
+## HTML
+
+[HTML入门教材](https://github.com/TIM168/technical_books/blob/master/HTML/HTML%E5%85%A5%E9%97%A8%E6%95%99%E6%9D%90.pdf "HTML入门教材")
+
+[HTML语言从零到精通](https://github.com/TIM168/technical_books/blob/master/HTML/HTML%E8%AF%AD%E8%A8%80%E4%BB%8E%E9%9B%B6%E5%88%B0%E7%B2%BE%E9%80%9A.pdf "HTML语言从零到精通")
+
+## HTTP
+
+[HttpClient入门](https://github.com/TIM168/technical_books/blob/master/HTTP/HttpClient%E5%85%A5%E9%97%A8.pdf "HttpClient入门")
+
+
+## Java
+
+[JMS20](https://github.com/TIM168/technical_books/blob/master/Java/JMS20.pdf "JMS20")
+
+[Maven实战](https://github.com/TIM168/technical_books/blob/master/Java/Maven%E5%AE%9E%E6%88%98.pdf "Maven实战")
+
+[Netty权威指南 第1版 完整版](https://github.com/TIM168/technical_books/blob/master/Java/Netty%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%20%E7%AC%AC1%E7%89%88%20%E5%AE%8C%E6%95%B4%E7%89%88.pdf "Netty权威指南 第1版 完整版")
+
+[Practical.API.Design.Confessions.of.a.Java.Framework.Architect](https://github.com/TIM168/technical_books/blob/master/Java/Practical.API.Design.Confessions.of.a.Java.Framework.Architect.pdf "Practical.API.Design.Confessions.of.a.Java.Framework.Architect")
+
+[TreeMap实现原理](https://github.com/TIM168/technical_books/blob/master/Java/TreeMap%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.pdf "TreeMap实现原理")
+
+[《Java多线程编程核心技术》迷你书](https://github.com/TIM168/technical_books/blob/master/Java/%E3%80%8AJava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E8%BF%B7%E4%BD%A0%E4%B9%A6.pdf "《Java多线程编程核心技术》迷你书")
+
+[使用Nexus搭建Maven私服](https://github.com/TIM168/technical_books/blob/master/Java/%E4%BD%BF%E7%94%A8Nexus%E6%90%AD%E5%BB%BAMaven%E7%A7%81%E6%9C%8D.pdf "使用Nexus搭建Maven私服")
+
+[实战Java虚拟机](https://github.com/TIM168/technical_books/blob/master/Java/%E5%AE%9E%E6%88%98Java%E8%99%9A%E6%8B%9F%E6%9C%BA.pdf "实战Java虚拟机")
+
+[深入理解JAVA内存模型](https://github.com/TIM168/technical_books/blob/master/Java/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JAVA%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.pdf "深入理解JAVA内存模型")
+
+[深入理解Java7](https://github.com/TIM168/technical_books/blob/master/Java/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java7.pdf "深入理解Java7")
+
+[理解ThreadLocal](https://github.com/TIM168/technical_books/blob/master/Java/%E7%90%86%E8%A7%A3ThreadLocal.pdf "理解ThreadLocal")
+
+[研磨Struts2](https://github.com/TIM168/technical_books/blob/master/Java/%E7%A0%94%E7%A3%A8Struts2.pdf "研磨Struts2")
+
+[精通lambda表达式：Java多核编程](https://github.com/TIM168/technical_books/blob/master/Java/%E7%B2%BE%E9%80%9Alambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%EF%BC%9AJava%E5%A4%9A%E6%A0%B8%E7%BC%96%E7%A8%8B.pdf "精通lambda表达式：Java多核编程")
+
+[轻松学Java Web开发](https://github.com/TIM168/technical_books/blob/master/Java/%E8%BD%BB%E6%9D%BE%E5%AD%A6Java%20Web%E5%BC%80%E5%8F%91.pdf "轻松学Java Web开发")
+
+[阿里巴巴Java开发手册](https://github.com/TIM168/technical_books/blob/master/Java/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8Cv1.2.0.pdf "阿里巴巴Java开发手册")
