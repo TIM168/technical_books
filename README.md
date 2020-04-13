@@ -32,3 +32,21 @@
 [易学C++](https://github.com/TIM168/technical_books/tree/master/C%2B%2B "易学C++")
 
 [深度探索C++对象模型](https://github.com/TIM168/technical_books/blob/master/C%2B%2B/%E6%B7%B1%E5%BA%A6%E6%8E%A2%E7%B4%A2C%2B%2B%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B.pdf "深度探索C++对象模型")
+
+## C语言
+
+[C专家编程](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/C%E4%B8%93%E5%AE%B6%E7%BC%96%E7%A8%8B.pdf "C专家编程")
+
+[The C Programming Language](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/The%20C%20Programming%20Language.pdf "The C Programming Language")
+
+[The+C+Standard+Library](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/The%2BC%2BStandard%2BLibrary.pdf "The+C+Standard+Library")
+
+[C语言深度剖析](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/c%E8%AF%AD%E8%A8%80%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90.pdf "C语言深度剖析")
+
+[指针详解](https://github.com/TIM168/technical_books/tree/master/C%E8%AF%AD%E8%A8%80 "指针详解")
+
+[林锐·高质量C 编程指南](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E6%9E%97%E9%94%90%C2%B7%E9%AB%98%E8%B4%A8%E9%87%8FC%20%20%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf "林锐·高质量C 编程指南")
+
+[经典的100个C算法](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E7%BB%8F%E5%85%B8%E7%9A%84100%E4%B8%AAc%E7%AE%97%E6%B3%95.txt "经典的100个C算法")
+
+[谭浩强经典C教程](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E8%B0%AD%E6%B5%A9%E5%BC%BA%E7%BB%8F%E5%85%B8C%252B%252B%E6%95%99%E7%A8%8B.ppt "谭浩强经典C教程")
