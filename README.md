@@ -97,3 +97,31 @@
 [轻松学Java Web开发](https://github.com/TIM168/technical_books/blob/master/Java/%E8%BD%BB%E6%9D%BE%E5%AD%A6Java%20Web%E5%BC%80%E5%8F%91.pdf "轻松学Java Web开发")
 
 [阿里巴巴Java开发手册](https://github.com/TIM168/technical_books/blob/master/Java/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8Cv1.2.0.pdf "阿里巴巴Java开发手册")
+
+## Javascript
+
+[AJAX实战](https://github.com/TIM168/technical_books/blob/master/Javascript/AJAX%E5%AE%9E%E6%88%98.pdf "AJAX实战")
+
+
+[AngularJS权威教程](https://github.com/TIM168/technical_books/blob/master/Javascript/AngularJS%E6%9D%83%E5%A8%81%E6%95%99%E7%A8%8B.pdf "AngularJS权威教程")
+
+[JavaScript_DOM编程艺术](https://github.com/TIM168/technical_books/blob/master/Javascript/JavaScript_DOM%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF.pdf "JavaScript_DOM编程艺术")
+
+[PhoneGap入门经典](https://github.com/TIM168/technical_books/blob/master/Javascript/PhoneGap%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8.pdf "PhoneGap入门经典")
+
+[PhoneGap实战](https://github.com/TIM168/technical_books/blob/master/Javascript/PhoneGap%E5%AE%9E%E6%88%98.pdf "PhoneGap实战")
+
+[jQuery技术内幕](https://github.com/TIM168/technical_books/blob/master/Javascript/jQuery%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95.pdf "jQuery技术内幕")
+
+[javascript面向对象编程](https://github.com/TIM168/technical_books/blob/master/Javascript/javascript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.pdf "javascript面向对象编程")
+
+[《锋利的jQuery》](https://github.com/TIM168/technical_books/blob/master/Javascript/%E3%80%8A%E9%94%8B%E5%88%A9%E7%9A%84jQuery%E3%80%8B.pdf "《锋利的jQuery》")
+
+[悟透javascript](https://github.com/TIM168/technical_books/blob/master/Javascript/%E6%82%9F%E9%80%8Fjavascript.pdf "悟透javascript")
+
+[深入浅出Node.js](https://github.com/TIM168/technical_books/blob/master/Javascript/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.pdf "深入浅出Node.js")
+
+[编写高质量代码--Web前端开发修炼之道](https://github.com/TIM168/technical_books/blob/master/Javascript/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81--Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93.pdf "编写高质量代码--Web前端开发修炼之道")
+
+[高性能JavaScript_编程](https://github.com/TIM168/technical_books/blob/master/Javascript/%E9%AB%98%E6%80%A7%E8%83%BDJavaScript_%E7%BC%96%E7%A8%8B.pdf "高性能JavaScript_编程")
+
