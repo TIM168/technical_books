@@ -174,3 +174,37 @@
 ## Python
 [Python3.6 中文文档](https://github.com/TIM168/technical_books/blob/master/Python/Python3.6%20%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3.pdf "Python3.6 中文文档")
 
+## Unix
+[UNIX环境高级编程第二版](https://github.com/TIM168/technical_books/blob/master/Unix/UNIX%E7%8E%AF%E5%A2%83%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E7%AC%AC%E4%BA%8C%E7%89%88.pdf "UNIX环境高级编程第二版")
+
+[UNIX网络编程第2卷](https://github.com/TIM168/technical_books/blob/master/Unix/UNIX%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E7%AC%AC2%E5%8D%B7.pdf "UNIX网络编程第2卷")
+
+[Unix编程艺术](https://github.com/TIM168/technical_books/blob/master/Unix/Unix%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF.pdf "Unix编程艺术")
+
+## VC
+[MFC类库详解](https://github.com/TIM168/technical_books/blob/master/VC/MFC%E7%B1%BB%E5%BA%93%E8%AF%A6%E8%A7%A3.chm "MFC类库详解")
+
+[VC命名规范](https://github.com/TIM168/technical_books/blob/master/VC/VC_%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.doc "VC命名规范")
+
+[VC技术内幕](https://github.com/TIM168/technical_books/blob/master/VC/VC%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95.pdf "VC技术内幕")
+
+[VC调试方法](https://github.com/TIM168/technical_books/blob/master/VC/VC%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.doc "VC调试方法")
+
+[vc++6.0_调试详细教程](https://github.com/TIM168/technical_books/blob/master/VC/vc%2B%2B6.0_%E8%B0%83%E8%AF%95%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B.doc "vc++6.0_调试详细教程")
+
+[深入浅出MFC](https://github.com/TIM168/technical_books/blob/master/VC/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAMFC.pdf "深入浅出MFC")
+
+[用VC集成开发环境编译HelloDDK](https://github.com/TIM168/technical_books/blob/master/VC/%E7%94%A8VC%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%BC%96%E8%AF%91HelloDDK.doc "用VC集成开发环境编译HelloDDK")
+
+## Windows
+[Windows API一日一练](https://github.com/TIM168/technical_books/blob/master/Windows/Windows%20API%E4%B8%80%E6%97%A5%E4%B8%80%E7%BB%83.zip "Windows API一日一练")
+
+[Windows_CMD命令大全-电脑教程](https://github.com/TIM168/technical_books/blob/master/Windows/Windows_CMD%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8-%E7%94%B5%E8%84%91%E6%95%99%E7%A8%8B.txt "Windows_CMD命令大全-电脑教程")
+
+[Windows下设备驱动程序的开发方法](https://github.com/TIM168/technical_books/blob/master/Windows/Windows%E4%B8%8B%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%BC%80%E5%8F%91%E6%96%B9%E6%B3%95.pdf "Windows下设备驱动程序的开发方法")
+
+[Windows程序设计2](https://github.com/TIM168/technical_books/blob/master/Windows/Windows%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A12.chm "Windows程序设计2")
+
+[windows电脑cmd命令大全](https://github.com/TIM168/technical_books/blob/master/Windows/windows%E7%94%B5%E8%84%91cmd%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.doc "windows电脑cmd命令大全")
+
+[精通Windows.API-函数、接口、编程实例](https://github.com/TIM168/technical_books/blob/master/Windows/%E7%B2%BE%E9%80%9AWindows.API-%E5%87%BD%E6%95%B0%E3%80%81%E6%8E%A5%E5%8F%A3%E3%80%81%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B.pdf "精通Windows.API-函数、接口、编程实例")
