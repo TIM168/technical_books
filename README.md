@@ -241,3 +241,67 @@
 
 [实战Elasticsearch、Logstash、Kibana++分布式大数据搜索与日志挖掘及可视化解决方案](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/%E5%AE%9E%E6%88%98Elasticsearch%E3%80%81Logstash%E3%80%81Kibana%2B%2B%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%90%9C%E7%B4%A2%E4%B8%8E%E6%97%A5%E5%BF%97%E6%8C%96%E6%8E%98%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.pdf "实战Elasticsearch、Logstash、Kibana++分布式大数据搜索与日志挖掘及可视化解决方案")
 
+## 数据库
+[SQL完全手册](https://github.com/TIM168/technical_books/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C.pdf "SQL完全手册")
+
+[《MySQL高效编程》](https://github.com/TIM168/technical_books/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/%E3%80%8AMySQL%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E3%80%8B.pdf "《MySQL高效编程》")
+
+## 木马，病毒
+[僵尸网络_网络程序杀手](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E5%83%B5%E5%B0%B8%E7%BD%91%E7%BB%9C_%E7%BD%91%E7%BB%9C%E7%A8%8B%E5%BA%8F%E6%9D%80%E6%89%8B.pdf "僵尸网络_网络程序杀手")
+
+[拒绝盗号](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E6%8B%92%E7%BB%9D%E7%9B%97%E5%8F%B7.pdf "拒绝盗号")
+
+[木马攻防全攻略](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E6%9C%A8%E9%A9%AC%E6%94%BB%E9%98%B2%E5%85%A8%E6%94%BB%E7%95%A5.pdf "木马攻防全攻略")
+
+[木马查杀深度剖析](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E6%9C%A8%E9%A9%AC%E6%9F%A5%E6%9D%80%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90.pdf "木马查杀深度剖析")
+
+[潜伏在办公室](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E6%BD%9C%E4%BC%8F%E5%9C%A8%E5%8A%9E%E5%85%AC%E5%AE%A4.pdf "潜伏在办公室")
+
+[网页木马攻防实战](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E7%BD%91%E9%A1%B5%E6%9C%A8%E9%A9%AC%E6%94%BB%E9%98%B2%E5%AE%9E%E6%88%98.pdf "网页木马攻防实战")
+
+[走进计算机病毒](https://github.com/TIM168/technical_books/blob/master/%E6%9C%A8%E9%A9%AC%EF%BC%8C%E7%97%85%E6%AF%92/%E8%B5%B0%E8%BF%9B%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%97%85%E6%AF%92.pdf "走进计算机病毒")
+
+## 架构
+[分布式计算-原理、算法和系统](https://github.com/TIM168/technical_books/blob/master/%E6%9E%B6%E6%9E%84/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97-%E5%8E%9F%E7%90%86%E3%80%81%E7%AE%97%E6%B3%95%E5%92%8C%E7%B3%BB%E7%BB%9F.pdf "分布式计算-原理、算法和系统")
+
+[支付宝架构与技术](https://github.com/TIM168/technical_books/blob/master/%E6%9E%B6%E6%9E%84/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%8A%80%E6%9C%AF.pdf "支付宝架构与技术")
+
+[淘宝技术这十年](https://github.com/TIM168/technical_books/blob/master/%E6%9E%B6%E6%9E%84/%E6%B7%98%E5%AE%9D%E6%8A%80%E6%9C%AF%E8%BF%99%E5%8D%81%E5%B9%B4.pdf "淘宝技术这十年")
+
+## 汇编语言
+[IBM_PC汇编语言程序设计__绪论](https://github.com/TIM168/technical_books/blob/master/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/IBM_PC%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1__%E7%BB%AA%E8%AE%BA.ppt "IBM_PC汇编语言程序设计__绪论")
+
+[汇编指令大全](https://github.com/TIM168/technical_books/blob/master/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A81.doc "汇编指令大全")
+
+[汇编语言（王爽着）](https://github.com/TIM168/technical_books/blob/master/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%8E%8B%E7%88%BD%E7%9D%80.pdf "汇编语言（王爽着）")
+
+## 消息队列&搜索引擎
+[Elasticsearch in Action 全文检索](https://github.com/TIM168/technical_books/blob/master/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%26%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/Elasticsearch%20in%20Action%20%E5%85%A8%E6%96%87%E6%A3%80%E7%B4%A2.pdf "Elasticsearch in Action 全文检索")
+
+[RabbitMQ实战指南](https://github.com/TIM168/technical_books/blob/master/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%26%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/RabbitMQ%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97.pdf "RabbitMQ实战指南")
+
+## 电脑故障
+[DOS在电脑维护与故障修复中的典型应用](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/DOS%E5%9C%A8%E7%94%B5%E8%84%91%E7%BB%B4%E6%8A%A4%E4%B8%8E%E6%95%85%E9%9A%9C%E4%BF%AE%E5%A4%8D%E4%B8%AD%E7%9A%84%E5%85%B8%E5%9E%8B%E5%BA%94%E7%94%A8.pdf "DOS在电脑维护与故障修复中的典型应用")
+
+[DOS在电脑装机与系统修复中的典型应用](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/DOS%E5%9C%A8%E7%94%B5%E8%84%91%E8%A3%85%E6%9C%BA%E4%B8%8E%E7%B3%BB%E7%BB%9F%E4%BF%AE%E5%A4%8D%E4%B8%AD%E7%9A%84%E5%85%B8%E5%9E%8B%E5%BA%94%E7%94%A8.pdf "DOS在电脑装机与系统修复中的典型应用")
+
+[DOS在磁盘管理与系统维护中的典型应用 入门篇](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/DOS%E5%9C%A8%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86%E4%B8%8E%E7%B3%BB%E7%BB%9F%E7%BB%B4%E6%8A%A4%E4%B8%AD%E7%9A%84%E5%85%B8%E5%9E%8B%E5%BA%94%E7%94%A8%20%E5%85%A5%E9%97%A8%E7%AF%87.pdf "DOS在磁盘管理与系统维护中的典型应用 入门篇")
+
+[电脑常见故障排除一本通](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/%E7%94%B5%E8%84%91%E5%B8%B8%E8%A7%81%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E4%B8%80%E6%9C%AC%E9%80%9A.pdf "电脑常见故障排除一本通")
+
+[电脑硬道理_网络安全秘技](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/%E7%94%B5%E8%84%91%E7%A1%AC%E9%81%93%E7%90%86_%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%A7%98%E6%8A%80.pdf "电脑硬道理_网络安全秘技")
+
+[网络游戏安全揭秘](https://github.com/TIM168/technical_books/blob/master/%E7%94%B5%E8%84%91%E6%95%85%E9%9A%9C/%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%89%E5%85%A8%E6%8F%AD%E7%A7%98.pdf "网络游戏安全揭秘")
+
+## 算法
+[《啊哈！算法》](https://github.com/TIM168/technical_books/blob/master/%E7%AE%97%E6%B3%95/%E3%80%8A%E5%95%8A%E5%93%88%EF%BC%81%E7%AE%97%E6%B3%95%E3%80%8B.pdf "《啊哈！算法》")
+
+[程序员的数学](https://github.com/TIM168/technical_books/blob/master/%E7%AE%97%E6%B3%95/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%95%B0%E5%AD%A6.pdf "程序员的数学")
+
+## 网管
+[金牌网管师初级网络实验手册](https://github.com/TIM168/technical_books/blob/master/%E7%BD%91%E7%AE%A1/%E9%87%91%E7%89%8C%E7%BD%91%E7%AE%A1%E5%B8%88%E5%88%9D%E7%BA%A7%E7%BD%91%E7%BB%9C%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C.pdf "金牌网管师初级网络实验手册")
+
+## 黑客之道
+[《黑客渗透笔记》](https://github.com/TIM168/technical_books/blob/master/%E9%BB%91%E5%AE%A2%E4%B9%8B%E9%81%93/%E3%80%8A%E9%BB%91%E5%AE%A2%E6%B8%97%E9%80%8F%E7%AC%94%E8%AE%B0%E3%80%8B.pdf "《黑客渗透笔记》")
+
+[非技术攻击 菜鸟也能防黑客](https://github.com/TIM168/technical_books/blob/master/%E9%BB%91%E5%AE%A2%E4%B9%8B%E9%81%93/%E9%9D%9E%E6%8A%80%E6%9C%AF%E6%94%BB%E5%87%BB%20%E8%8F%9C%E9%B8%9F%E4%B9%9F%E8%83%BD%E9%98%B2%E9%BB%91%E5%AE%A2.pdf "非技术攻击 菜鸟也能防黑客")
