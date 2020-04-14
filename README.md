@@ -208,3 +208,36 @@
 [windows电脑cmd命令大全](https://github.com/TIM168/technical_books/blob/master/Windows/windows%E7%94%B5%E8%84%91cmd%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.doc "windows电脑cmd命令大全")
 
 [精通Windows.API-函数、接口、编程实例](https://github.com/TIM168/technical_books/blob/master/Windows/%E7%B2%BE%E9%80%9AWindows.API-%E5%87%BD%E6%95%B0%E3%80%81%E6%8E%A5%E5%8F%A3%E3%80%81%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B.pdf "精通Windows.API-函数、接口、编程实例")
+
+## 人工智能&机器学习
+[机器学习（周志华）](https://github.com/TIM168/technical_books/blob/master/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%26%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0_%E5%91%A8%E5%BF%97%E5%8D%8E.pdf "机器学习（周志华）")
+
+[机器学习算法与Python学习](https://github.com/TIM168/technical_books/blob/master/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%26%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E4%B8%8EPython%E5%AD%A6%E4%B9%A0.pdf "机器学习算法与Python学习")
+
+[深度学习](https://github.com/TIM168/technical_books/blob/master/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%26%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.pdf "深度学习")
+
+[深度学习Java语言实现](https://github.com/TIM168/technical_books/blob/master/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%26%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0Java%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0.pdf "深度学习Java语言实现")
+
+## 单片机
+[《爱上单片机》高清版](https://github.com/TIM168/technical_books/blob/master/%E5%8D%95%E7%89%87%E6%9C%BA/%E3%80%8A%E7%88%B1%E4%B8%8A%E5%8D%95%E7%89%87%E6%9C%BA%E3%80%8B%E9%AB%98%E6%B8%85PDF.pdf "《爱上单片机》高清版")
+
+[爱上单片机【第二版】](https://github.com/TIM168/technical_books/blob/master/%E5%8D%95%E7%89%87%E6%9C%BA/%E7%88%B1%E4%B8%8A%E5%8D%95%E7%89%87%E6%9C%BA%E3%80%90%E7%AC%AC%E4%BA%8C%E7%89%88%E3%80%917.pdf "爱上单片机【第二版】")
+
+## 多线程
+[多线程的那点儿事](https://github.com/TIM168/technical_books/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E9%82%A3%E7%82%B9%E5%84%BF%E4%BA%8B.doc "多线程的那点儿事")
+
+[多线程编程指南](https://github.com/TIM168/technical_books/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf "多线程编程指南")
+
+## 大数据
+[Hadoop实战](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/Hadoop%E5%AE%9E%E6%88%98.pdf "Hadoop实战")
+
+[Hive编程指南](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/Hive%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf "Hive编程指南")
+
+[Spark技术内幕 深入解析Spark内核架构设计与实现原理](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/Spark%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%20%20%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90Spark%E5%86%85%E6%A0%B8%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.pdf "Spark技术内幕 深入解析Spark内核架构设计与实现原理")
+
+[kafka权威指南中文版](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/kafka%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E4%B8%AD%E6%96%87%E7%89%88.pdf "kafka权威指南中文版")
+
+[大数据搜索与日志挖掘及可视化方案++ELK+Stack++Elasticsearch+Logstash+Kibana++第2版](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%90%9C%E7%B4%A2%E4%B8%8E%E6%97%A5%E5%BF%97%E6%8C%96%E6%8E%98%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E6%96%B9%E6%A1%88%2B%2BELK%2BStack%2B%2BElasticsearch%2BLogstash%2BKibana%2B%2B%E7%AC%AC2%E7%89%88.pdf "大数据搜索与日志挖掘及可视化方案++ELK+Stack++Elasticsearch+Logstash+Kibana++第2版")
+
+[实战Elasticsearch、Logstash、Kibana++分布式大数据搜索与日志挖掘及可视化解决方案](https://github.com/TIM168/technical_books/blob/master/%E5%A4%A7%E6%95%B0%E6%8D%AE/%E5%AE%9E%E6%88%98Elasticsearch%E3%80%81Logstash%E3%80%81Kibana%2B%2B%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%90%9C%E7%B4%A2%E4%B8%8E%E6%97%A5%E5%BF%97%E6%8C%96%E6%8E%98%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.pdf "实战Elasticsearch、Logstash、Kibana++分布式大数据搜索与日志挖掘及可视化解决方案")
+
