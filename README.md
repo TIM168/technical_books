@@ -1,4 +1,4 @@
-# 技术书籍
+# 技术书籍（未完待续，持续更新）
 
 ## Android
 [Android应用开发入门教程(经典版)](https://github.com/TIM168/technical_books/blob/master/Android/Android%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B-%E7%BB%8F%E5%85%B8%E7%89%88.pdf)
@@ -124,4 +124,53 @@
 [编写高质量代码--Web前端开发修炼之道](https://github.com/TIM168/technical_books/blob/master/Javascript/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81--Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93.pdf "编写高质量代码--Web前端开发修炼之道")
 
 [高性能JavaScript_编程](https://github.com/TIM168/technical_books/blob/master/Javascript/%E9%AB%98%E6%80%A7%E8%83%BDJavaScript_%E7%BC%96%E7%A8%8B.pdf "高性能JavaScript_编程")
+
+## Linux
+[Linux内核设计与实现](https://github.com/TIM168/technical_books/blob/master/Linux/LINUX%E5%86%85%E6%A0%B8%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf "Linux内核设计与实现")
+
+[Linux系统命令及其使用详解](https://github.com/TIM168/technical_books/blob/master/Linux/Linux%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E5%8F%8A%E5%85%B6%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.doc "Linux系统命令及其使用详解")
+
+[Ubuntu_Linux从入门到精通](https://github.com/TIM168/technical_books/blob/master/Linux/Ubuntu_Linux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A.pdf "Ubuntu_Linux从入门到精通")
+
+[linux内核深入剖析基于0.11](https://github.com/TIM168/technical_books/blob/master/Linux/linux%E5%86%85%E6%A0%B8%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90%E5%9F%BA%E4%BA%8E0.11.pdf "linux内核深入剖析基于0.11")
+
+[ubuntu安装教程](https://github.com/TIM168/technical_books/blob/master/Linux/ubuntu%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.doc "ubuntu安装教程")
+
+## PHP
+[PHP7.2官方手册中文版](https://github.com/TIM168/technical_books/blob/master/PHP/PHP7.2%E6%89%8B%E5%86%8C%EF%BC%88%E6%9C%80%E6%96%B0%E7%89%88%EF%BC%89/php%E5%AE%98%E6%96%B9%E6%89%8B%E5%86%8C%E4%B8%AD%E6%96%87%E7%89%88.chm "PHP7.2官方手册中文版")
+
+[01《学通PHP的24堂课》](https://github.com/TIM168/technical_books/blob/master/PHP/01%E3%80%8A%E5%AD%A6%E9%80%9APHP%E7%9A%8424%E5%A0%82%E8%AF%BE%E3%80%8B.pdf "01《学通PHP的24堂课》")
+
+[02《从零开始学PHP》](https://github.com/TIM168/technical_books/blob/master/PHP/02%E3%80%8A%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6PHP%E3%80%8B.pdf "02《从零开始学PHP》")
+
+[03《PHP学习手册》](https://github.com/TIM168/technical_books/blob/master/PHP/03%E3%80%8APHP%E5%AD%A6%E4%B9%A0%E6%89%8B%E5%86%8C%E3%80%8B.pdf "03《PHP学习手册》")
+
+[04《PHP经典编程265例》](https://github.com/TIM168/technical_books/blob/master/PHP/03%E3%80%8APHP%E7%BB%8F%E5%85%B8%E7%BC%96%E7%A8%8B265%E4%BE%8B%E3%80%8B.pdf "04《PHP经典编程265例》")
+
+[PHP安全编程](https://github.com/TIM168/technical_books/blob/master/PHP/PHP%E5%AE%89%E5%85%A8%E7%BC%96%E7%A8%8B.pdf "PHP安全编程")
+
+[laravel框架5.6](https://github.com/TIM168/technical_books/blob/master/PHP/laravel%E6%A1%86%E6%9E%B65_6.pdf "laravel框架5.6")
+
+[《PHP5应用实例详解使用Zend Framework&Smarty构筑真正的MVC模式应用》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8APHP5%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B%E8%AF%A6%E8%A7%A3%E4%BD%BF%E7%94%A8Zend%20Framework%26Smarty%E6%9E%84%E7%AD%91%E7%9C%9F%E6%AD%A3%E7%9A%84MVC%E6%A8%A1%E5%BC%8F%E5%BA%94%E7%94%A8%E3%80%8B.pdf "《PHP5应用实例详解使用Zend Framework&Smarty构筑真正的MVC模式应用》")
+
+[《PHP与MySQL案例剖析》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8APHP%E4%B8%8EMySQL%E6%A1%88%E4%BE%8B%E5%89%96%E6%9E%90%E3%80%8B.pdf "《PHP与MySQL案例剖析》")
+
+[《PHP开发实战1200例》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8APHP%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%981200%E4%BE%8B%E3%80%8B.pdf "《PHP开发实战1200例》")
+
+[《PHP网络编程典型模块与实例精讲》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8APHP%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%85%B8%E5%9E%8B%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%AE%9E%E4%BE%8B%E7%B2%BE%E8%AE%B2%E3%80%8B.pdf "《PHP网络编程典型模块与实例精讲》")
+
+[《Web开发的平民英雄--PHP+MySQL》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8AWeb%E5%BC%80%E5%8F%91%E7%9A%84%E5%B9%B3%E6%B0%91%E8%8B%B1%E9%9B%84--PHP%2BMySQL%E3%80%8B.pdf "《Web开发的平民英雄--PHP+MySQL》")
+
+[《实战突击.php项目开发案例整合》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8A%E5%AE%9E%E6%88%98%E7%AA%81%E5%87%BB.php%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%A1%88%E4%BE%8B%E6%95%B4%E5%90%88%E3%80%8B.pdf "《实战突击.php项目开发案例整合》")
+
+[《深入PHP与JQUERY开发》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8A%E6%B7%B1%E5%85%A5PHP%E4%B8%8EJQUERY%E5%BC%80%E5%8F%91%E3%80%8B.pdf "《深入PHP与JQUERY开发》")
+
+[《深入PHP面向对象模式与实践第2版》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8A%E6%B7%B1%E5%85%A5PHP%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%AE%9E%E8%B7%B5%E7%AC%AC2%E7%89%88%E3%80%8B.pdf "《深入PHP面向对象模式与实践第2版》")
+
+[《深入PHP面向对象模式与实践第3版》](https://github.com/TIM168/technical_books/blob/master/PHP/%E3%80%8A%E6%B7%B1%E5%85%A5PHP%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%AE%9E%E8%B7%B5%E7%AC%AC3%E7%89%88%E3%80%8B.pdf "《深入PHP面向对象模式与实践第3版》")
+
+[高性能PHP应用开发](https://github.com/TIM168/technical_books/blob/master/PHP/%E9%AB%98%E6%80%A7%E8%83%BDPHP%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91_itsrcs.com.pdf "高性能PHP应用开发")
+
+## Python
+[Python3.6 中文文档](https://github.com/TIM168/technical_books/blob/master/Python/Python3.6%20%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3.pdf "Python3.6 中文文档")
 
